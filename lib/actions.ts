@@ -10,7 +10,7 @@ interface CheckoutSessionResponse {
 	error?: string;
 }
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-	apiVersion: "2024-09-30.acacia",
+	apiVersion: "2025-02-24.acacia",
 });
 
 export const genContent = async (prompt: string) => {
